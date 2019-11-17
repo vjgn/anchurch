@@ -212,7 +212,7 @@ ol {
 }
 
 .spad {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .set-bg {
@@ -326,7 +326,7 @@ ol {
 
 .main-menu {
 	display: inline-block;
-	float: left;
+	float: right;
 	padding-top: 15px;
 }
 
@@ -546,13 +546,13 @@ ol {
 }
 
 .sermon-content {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	padding-left: 8px;
 }
 
 .sermon-content h2 {
-	margin-bottom: 30px;
+	margin-bottom: 15x;
 }
 
 .sermon-title {
@@ -1027,7 +1027,7 @@ ol {
 =======================*/
 
 .page-info-section {
-	height: 200px;
+	height: 100px;
 	position: relative;
 }
 
@@ -1119,6 +1119,7 @@ ol {
 .pastor {
 	text-align: center;
 	padding: 30px;
+	height:360px;
 	border-radius: 1px;
 	-webkit-box-shadow: 0px 15px 60px rgba(76, 74, 74, 0.14);
 	        box-shadow: 0px 15px 60px rgba(76, 74, 74, 0.14);
@@ -1195,6 +1196,26 @@ ol {
 
 .blog-page .blog-item {
 	margin-bottom: 50px;
+}
+
+.verse blockquote {
+	border-left: 2px solid #dd3e3e;
+	padding: 8px 28px;
+	font-size: 18px;
+	font-family: "Lora", serif;
+	font-style: italic;
+	color: #636363;
+	margin: 0 0 4px;
+}
+
+.verse blockquote span {
+	display: block;
+	font-family: "Open Sans", sans-serif;
+	color: #dd3e3e;
+	font-style: normal;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 15px;
 }
 
 /*---------------------
@@ -1487,6 +1508,19 @@ ol {
 .contact-form textarea {
 	height: 120px;
 	margin-bottom: 40px;
+}
+
+.static-map {
+    z-index: 3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    background-color: white;
 }
 
 /* Medium screen : 992px. */
