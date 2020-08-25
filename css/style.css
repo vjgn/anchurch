@@ -686,10 +686,11 @@ ol {
 }
 
 .office-title {
+	font-family: "Lora", serif;
 	font-size: 16px;
-	font-weight: 400;
-	color: #2B47FF;
-	margin-bottom: 10px;
+	font-weight: 500;
+	color: #08a77f;
+	margin-bottom: 6px;
 	display: block;
 	font-style: italic;
 }
@@ -1148,6 +1149,8 @@ ol {
 .pastor p {
 	font-family: "Lora", serif;
 	font-style: italic;
+	font-weight: 500;
+	font-size: 20px;
 	margin-bottom: 0;
 	color: #dd3e3e;
 }
